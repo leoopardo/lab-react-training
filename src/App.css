@@ -1,6 +1,13 @@
-.App {
+.labOne{
   display: flex;
   flex-wrap: wrap;
   text-align: center;
+  margin-bottom: 50px;
+}
+.labTwo{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-bottom: 50px;
 }
 

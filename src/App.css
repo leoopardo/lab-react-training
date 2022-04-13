@@ -1,7 +1,8 @@
 .labOne,
 .labTwo,
 .labThree,
-.labFour{
+.labFour,
+.labFive{
   display: flex;
   flex-wrap: wrap;
   text-align: center;

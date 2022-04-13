@@ -1,20 +1,9 @@
-.labOne{
+.labOne,
+.labTwo,
+.labThree,
+.labFour{
   display: flex;
   flex-wrap: wrap;
   text-align: center;
   margin-bottom: 50px;
 }
-.labTwo{
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-  margin-bottom: 50px;
-}
-.labThree{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  text-align: center;
-  margin-bottom: 50px;
-}
-

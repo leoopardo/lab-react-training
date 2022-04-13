@@ -2,6 +2,8 @@ import "./App.css"
 import {IdCard} from "./assets/components/idCard/idCard"
 import {Greetings} from "../src/assets/components/greetings/greetings"
 import {Random} from "../src/assets/components/randomNum/randomNum"
+import {BoxColor} from "../src/assets/components/BoxColor/BoxColor"
+
 function App() {
   return (
     <div className="App">
@@ -36,6 +38,12 @@ function App() {
       <div className="labThree">
         <Random min={1} max={6}/>
         <Random min={1} max={100}/>
+      </div>
+      <hr />
+      <h1>exercise 4</h1>
+      <div className="labFour">
+        <BoxColor r={255} g={0} b={0} />
+        <BoxColor r={128} g={255} b={0} />
       </div>
     </div>
   );

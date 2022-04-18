@@ -1,0 +1,22 @@
+.driverCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(76, 74, 187);
+    height: 150px;
+    width: 500px;
+    border: 2px solid rgb(38, 38, 114);
+    margin: 2px
+}
+.driverPhoto{
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+}
+.driverText{
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: aliceblue;
+}

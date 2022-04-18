@@ -1,10 +1,8 @@
 .stars{
     display: flex;
     flex-wrap: wrap;
-    color: goldenrod;
-    font-weight: 300;
-    background-color: rgb(26, 23, 161);
-    border: 1px solid black;
-    box-shadow: 0 20px 20px rgba(17, 1, 85, 0.753);
+    color: white;
+    font-weight: 200;
+    background-color: rgb(76, 74, 187);
     margin: 5px;
 }

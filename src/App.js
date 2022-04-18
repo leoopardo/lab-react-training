@@ -1,10 +1,12 @@
 import "./App.css"
-import {IdCard} from "./assets/components/idCard/idCard"
-import {Greetings} from "../src/assets/components/greetings/greetings"
-import {Random} from "../src/assets/components/randomNum/randomNum"
+import {IdCard} from "./assets/components/IdCard/idCard"
+import {Greetings} from "./assets/components/Greetings/greetings"
+import {Random} from "./assets/components/RandomNum/randomNum"
 import {BoxColor} from "../src/assets/components/BoxColor/BoxColor"
 import {CreditCard} from "../src/assets/components/CreditCard/CreditCard"
 import { Rating } from "./assets/components/Rating/Rating"
+import {DriverCard} from "./assets/components/DriverCard/DriverCard"
+import { LikeButton } from "./assets/components/LikeButton/LikeButton"
 
 function App() {
   return (
@@ -97,7 +99,7 @@ function App() {
       <hr/>
       <h1>exercise 7</h1>
       <div className="labSeven">
-      {/* <DriverCard
+      <DriverCard
         name="Travis Kalanick"
         rating={4.2}
         img="https://si.wsj.net/public/resources/images/BN-TY647_37gql_OR_20170621052140.jpg?width=620&height=428"
@@ -115,7 +117,12 @@ function App() {
           model: "Audi A3",
           licensePlate: "BE33ER"
         }}
-      /> */}
+      />
+      </div>
+      <hr/>
+      <h1>exercise 7</h1>
+      <div className="labEight">
+        <LikeButton />
       </div>
     </div>
   );

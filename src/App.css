@@ -3,7 +3,8 @@
 .labThree,
 .labFour,
 .labFive,
-.labSix{
+.labSix,
+.labSeven{
   display: flex;
   flex-wrap: wrap;
   text-align: center;
